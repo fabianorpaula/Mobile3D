@@ -26,7 +26,8 @@ public class GeradorInimigo : MonoBehaviour
         Vector3 posInimigo = new Vector3(posRandomica,
             1, distancia);
         distancia = distancia + 30;
-        Instantiate(Inimigos[0],
+        int escolheInimigo = Random.Range(0, 3);
+        Instantiate(Inimigos[escolheInimigo],
             posInimigo,
             Quaternion.identity);
     }
