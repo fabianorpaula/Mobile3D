@@ -11,7 +11,7 @@ public class GeradorInimigo : MonoBehaviour
     {
         meuTempo += Time.deltaTime;
         
-        if(meuTempo > 0.5f)
+        if(meuTempo > 1f)
         {
             GerarInimigo();
             meuTempo = 0;

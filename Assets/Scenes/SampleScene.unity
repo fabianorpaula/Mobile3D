@@ -611,7 +611,7 @@ MonoBehaviour:
   - {fileID: 9125399049120490643, guid: ad042cec4a9b2ae46bacc11ea9c738ff, type: 3}
   - {fileID: 5266679276570159247, guid: f9be756fa9db25d4cb9cb1ee6c109723, type: 3}
   meuTempo: 0
-  distancia: 10
+  distancia: 40
 --- !u!4 &1435162642
 Transform:
   m_ObjectHideFlags: 0

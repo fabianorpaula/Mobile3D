@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Personagem : MonoBehaviour
 {
@@ -21,7 +22,9 @@ public class Personagem : MonoBehaviour
 
     void Mover()
     {
-        Corpo.linearVelocity = new Vector3(0,
+        float posX = Input.GetAxis("Horizontal") * 3;
+
+        Corpo.linearVelocity = new Vector3(posX,
             Corpo.linearVelocity.y,
             10);
 
